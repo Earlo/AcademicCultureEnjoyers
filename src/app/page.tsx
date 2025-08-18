@@ -52,7 +52,10 @@ export default function Home() {
           <p className="text-gray-700 dark:text-gray-300">
             Join visits to student fraternities, sitsits, and other academic
             festivities around the world.{' '}
-            <Link href="/events" className="text-blue-600 hover:underline">
+            <Link
+              href="/events"
+              className="inline-block rounded bg-blue-600 px-4 py-2 font-medium text-white hover:bg-blue-700 focus:outline-none focus-visible:ring"
+            >
               See upcoming events
             </Link>
             .
@@ -64,7 +67,10 @@ export default function Home() {
             Connect with fellow enjoyers and share your passion for knowledge
             and tradition.
           </p>
-          <Link href="/join" className="text-blue-600 hover:underline">
+          <Link
+            href="/join"
+            className="mt-2 inline-block rounded bg-blue-600 px-4 py-2 font-medium text-white hover:bg-blue-700 focus:outline-none focus-visible:ring"
+          >
             Apply for membership
           </Link>
         </section>
@@ -75,7 +81,7 @@ export default function Home() {
           </p>
           <Link
             href="/events/thomastag-2025"
-            className="text-blue-600 hover:underline"
+            className="inline-block rounded bg-blue-600 px-4 py-2 font-medium text-white hover:bg-blue-700 focus:outline-none focus-visible:ring"
           >
             Learn more and sign up
           </Link>
