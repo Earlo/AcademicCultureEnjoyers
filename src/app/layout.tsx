@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
-import Providers from '@/components/Providers';
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import './globals.css';
 
 const description =
@@ -61,18 +61,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex min-h-screen flex-col bg-gradient-to-b from-white to-blue-50 antialiased transition-colors duration-300 dark:from-gray-900 dark:to-gray-950">
-        <Providers>
-          <Header />
-          <main id="content" className="flex-1">
-            {children}
-          </main>
-          <footer className="border-t bg-white/60 p-4 text-center text-sm text-gray-600 backdrop-blur dark:bg-gray-900/60 dark:text-gray-400">
-            <a href="/privacy" className="hover:underline">
-              Privacy Policy
-            </a>
-          </footer>
-        </Providers>
+      <body className="flex min-h-screen flex-col bg-gradient-to-b from-white to-blue-50 antialiased transition-colors duration-300">
+        <Header />
+        <main id="content" className="flex-1">
+          {children}
+        </main>
+        <footer className="border-t bg-white/60 p-4 text-center text-sm text-gray-600 backdrop-blur">
+          <Link href="/privacy" className="hover:underline">
+            Privacy Policy
+          </Link>
+        </footer>
       </body>
     </html>
   );

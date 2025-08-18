@@ -4,10 +4,6 @@
   --foreground: #171717;
 }
 
-.dark {
-  --foreground: #ededed;
-}
-
 body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;

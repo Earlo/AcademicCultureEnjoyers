@@ -39,17 +39,17 @@ export default function Home() {
           alt="Academic Culture Enjoyers globe logo"
           width={96}
           height={96}
-          className="mb-4 dark:invert"
+          className="mb-4"
           priority
         />
         <h1 className="mb-6 text-4xl font-bold">Academic Culture Enjoyers</h1>
-        <p className="mb-8 text-lg text-gray-700 dark:text-gray-300">
+        <p className="mb-8 text-lg text-gray-700">
           Celebrating academic traditions and student culture across Europe.
           Discover events, stories and resources for enjoyers of scholarly life.
         </p>
         <section className="mb-10">
           <h2 className="mb-2 text-2xl font-semibold">Events & Trips</h2>
-          <p className="text-gray-700 dark:text-gray-300">
+          <p className="text-gray-700">
             Join visits to student fraternities, sitsits, and other academic
             festivities around the world.{' '}
             <Link
@@ -63,7 +63,7 @@ export default function Home() {
         </section>
         <section>
           <h2 className="mb-2 text-2xl font-semibold">Community</h2>
-          <p className="text-gray-700 dark:text-gray-300">
+          <p className="text-gray-700">
             Connect with fellow enjoyers and share your passion for knowledge
             and tradition.
           </p>
@@ -76,7 +76,7 @@ export default function Home() {
         </section>
         <section className="mt-10">
           <h2 className="mb-2 text-2xl font-semibold">Upcoming Event</h2>
-          <p className="mb-4 text-gray-700 dark:text-gray-300">
+          <p className="mb-4 text-gray-700">
             Join us in Nürnberg for Thomastag, 19–21 December 2025.
           </p>
           <Link
