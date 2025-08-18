@@ -16,13 +16,13 @@ export default async function JoinPage() {
       <h1 className="mb-4 text-3xl font-bold">
         Join Academic Culture Enjoyers
       </h1>
-      <p className="mb-6 text-gray-700 dark:text-gray-300">
+      <p className="mb-6 text-gray-700">
         Fill out the form below to apply for membership.
       </p>
       {formId ? (
         <TallyForm formId={formId} />
       ) : (
-        <p className="text-gray-700 dark:text-gray-300">
+        <p className="text-gray-700">
           Membership form unavailable. Please try again later.
         </p>
       )}

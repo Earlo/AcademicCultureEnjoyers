@@ -18,7 +18,7 @@ export default function EventsPage() {
           <h2 className="mb-1 text-xl font-semibold">
             Thomastag 2025 – Southern German Traditions Weekend
           </h2>
-          <p className="text-sm text-gray-600 dark:text-gray-400">
+          <p className="text-sm text-gray-600">
             19–21 December 2025 · Nürnberg, Germany
           </p>
         </Link>
