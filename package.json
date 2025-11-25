@@ -21,7 +21,7 @@
     "@types/node": "^24",
     "@types/react": "19.2.6",
     "@types/react-dom": "19.2.3",
-    "@typescript-eslint/eslint-plugin": "8.47.0",
+    "@typescript-eslint/eslint-plugin": "8.48.0",
     "@typescript-eslint/parser": "8.47.0",
     "clsx": "2.1.1",
     "eslint": "9.39.1",
