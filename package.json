@@ -33,7 +33,7 @@
     "prettier-plugin-packagejson": "^2.5.19",
     "prettier-plugin-tailwindcss": "0.7.2",
     "tailwind-merge": "3.4.0",
-    "tailwindcss": "4.1.17",
+    "tailwindcss": "4.1.18",
     "tsx": "^4.20.4",
     "typescript": "5.9.3"
   }
